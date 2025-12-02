@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SandBox_question"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:text="Haiti a combien de departement?"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/SandBox_answer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="10 departements"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/firstbutton"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/add_icon_foreground"
+        />
+
+
+</RelativeLayout>
+
